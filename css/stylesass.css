@@ -236,6 +236,10 @@ nav.footerFondo .goTop {
   text-decoration: none;
   text-align: end;
 }
+nav.footerFondo .logosTarjetas {
+  height: 40px;
+  width: 80%;
+}
 
 /* media queries */
 .formDesktop {
@@ -252,7 +256,7 @@ nav.footerFondo .goTop {
   }
   iframe {
     height: auto;
-    width: auto;
+    width: 100%;
   }
 }
 
