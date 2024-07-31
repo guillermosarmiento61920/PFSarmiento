@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "./utilities/variables";
+
+@import "./utilities/extend";
+
+@import "./utilities/mixin";
+
+@import "./utilities/globales";
+
+@import "./components/header";
+
+@import "./pages/main-index";
+
+@import "./pages/main-productos";
+
+@import "./pages/main-promociones";
+
+@import "./pages/main-encuentranos";
+
+@import "./pages/main-nosotros";
+
+@import "./components/footer";
+
+@import "./utilities/media-queries";

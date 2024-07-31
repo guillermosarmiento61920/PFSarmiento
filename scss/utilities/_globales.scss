@@ -1,0 +1,102 @@
+// definiciones globales
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// categorias del main
+h2 { 
+    color: brown;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+}
+// nombre de productos
+h3 {
+    color: $black;
+}
+
+// usado en el footer en primera instancia
+h4 {
+    font: 20px, bold, $black;
+}
+
+/* listas dentro del body sin estilo */
+body {
+    nav {
+        ul {
+            list-style: none;
+        }
+    }
+}
+
+/* listas sin decoracion y en color negro */
+ul {
+    li {
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        list-style: none;
+    }
+}
+
+//para los productos destacados en index y productos
+a {
+    text-decoration: none;
+
+    p {
+        color: black;
+    }
+}
+
+// caja que contiene el nombre
+.cintaFondo {
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(121, 9, 9, 1) 35%, rgb(81, 17, 17) 100%);
+    color: $black;
+    margin: 10px;
+    border-style: double;
+    border-color: $black;
+}
+
+// para colocacion en centro de cosas
+.ubicCentro {
+    @extend %ubicCentroext;
+}
+
+// animacion de productos en index y productos
+.zoomImg:hover {
+    -webkit-animation: scale-up-center 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: scale-up-center 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+

@@ -1,0 +1,21 @@
+// bloques de codigos que podran ser utilizados en diferentes partials.
+// en parentesis declaro variable local que solo se usaran en mixin
+// mantener el orden del parentesis
+
+//ejemplo de clase:
+// @mixin flexbox ($flex-d, $justify-c, $align-item, $wrap ){
+//     display: flex;
+//     flex-direction: $flex-d;
+//     justify-content: $justify-c;
+//     align-items: $align-item;
+//     flex-wrap: $wrap;
+// }
+// .hero-container{
+//     @include flexbox(column, center, inherit, wrap)
+// }
+
+// espaciado para las marcas de tarjeta y los desplegables
+@mixin indentMio ($marginL, $marginR){
+    margin-left: $marginL;
+    margin-right: $marginR;
+}

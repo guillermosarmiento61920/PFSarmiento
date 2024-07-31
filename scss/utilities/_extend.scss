@@ -1,0 +1,13 @@
+// se usa % y defino bloques fijos. entonces los copio con @extend %...
+
+%ubicCentroext{
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+%borderProd {
+    border: solid, grey, 0.4px;
+    border-radius: $separacion;
+}

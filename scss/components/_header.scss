@@ -1,0 +1,40 @@
+header.fondoDestacado {
+    // background-color: $fondoCinta;
+    background-image: url(../../assets/img/wave.png);
+
+    h2 {
+        color: $black;
+    }
+    // boton de buscar
+    .btn {
+        border-color: black;
+        border-width: 2px;
+        color: $black;
+        font-weight: 700;
+
+        &:hover {
+            background-color: $fondoCinta;
+        }
+    }
+
+    // fondo del offcanvas
+    .offcanvas {
+        background-color: $fondoCinta;
+
+        // para recuadro de items
+        .nav-link {
+            @extend %borderProd;
+        }
+        .nav-link:hover {
+            font-weight: 700;
+        }
+
+        .dropdown-item:hover {
+            font-weight: 500;
+        }
+    }
+
+    .navbar-toggler {
+        background-color: $fondoCinta;
+    }
+}

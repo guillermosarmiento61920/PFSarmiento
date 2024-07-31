@@ -1,0 +1,33 @@
+// cuerpo de promociones
+
+// para acomodar el texto de la pagina
+.textFlex {
+    display: flex;
+    @include indentMio (50px, 50px);
+    text-align: justify;
+}
+
+// separacion general
+.indent1 {
+    @include indentMio(50px, 50px);
+    background-color: white;
+    border-color: $black;
+
+    // separacion del texto de cada subtitulo
+    .indent2 {
+        @include indentMio(150px, 50px);
+    }
+
+    // iconos de las tarjetas
+    .tarjetaIcon {
+        height: 80px;
+        width: 100px;
+        align-items: center;
+    }
+}
+
+// borde del desplegable de cada tarjeta
+.borderBenef {
+    @extend %borderProd;
+    margin: $separacion;
+}

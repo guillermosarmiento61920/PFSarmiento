@@ -1,0 +1,16 @@
+nav.footerFondo {
+    background-color: $fondoFooter;
+
+    a:hover {
+        font-weight: 700;
+    }
+    .redesIcon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .goTop {
+        text-decoration: none;
+        text-align: end;
+    }
+}

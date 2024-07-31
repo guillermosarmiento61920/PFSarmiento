@@ -1,0 +1,7 @@
+// cuerpo de nosotros
+
+.marginNos{
+    @include indentMio ($separacion, $separacion);
+    display: block;
+    text-align: justify;
+}

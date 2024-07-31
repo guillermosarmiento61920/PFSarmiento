@@ -1,0 +1,29 @@
+// cuerpo de productos
+
+.row {
+    margin: $separacion;
+}
+
+
+// grid para los productos
+section.gridProd {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+
+    .gridItem {
+        margin: 10%;
+
+        /* tamano de las imagenes en pagina de productos */
+        .productSize {
+            height: auto;
+            width: 100%;
+            border-radius: $separacion;
+        }
+        // borde de los productos de la categoria
+        &.borderProdProductos {
+            @extend %borderProd;
+            padding: $separacion;
+        }
+    }
+}
