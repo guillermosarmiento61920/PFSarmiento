@@ -1,5 +1,6 @@
 // se usa % y defino bloques fijos. entonces los copio con @extend %...
 
+// para dejar objetos centrados
 %ubicCentroext{
         text-align: center;
         align-content: center;
@@ -7,6 +8,7 @@
         align-self: center;
     }
 
+    // borde de las cajas donde se ven los productos
 %borderProd {
     border: solid, grey, 0.4px;
     border-radius: $separacion;

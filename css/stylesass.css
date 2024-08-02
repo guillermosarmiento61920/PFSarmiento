@@ -235,6 +235,7 @@ nav.footerFondo .redesIcon {
 nav.footerFondo .goTop {
   text-decoration: none;
   text-align: end;
+  color: black;
 }
 nav.footerFondo .logosTarjetas {
   height: 40px;

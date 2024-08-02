@@ -1,5 +1,6 @@
 // cuerpo de nosotros
 
+// margenes para el texto
 .marginNos{
     @include indentMio ($separacion, $separacion);
     display: block;

@@ -1,17 +1,23 @@
+// fondo de la cinta
 nav.footerFondo {
     background-color: $fondoFooter;
 
+    // negrita para los links
     a:hover {
         font-weight: 700;
     }
+
+    // formato iconos
     .redesIcon {
         height: 40px;
         width: 40px;
     }
 
+    // boton top
     .goTop {
         text-decoration: none;
         text-align: end;
+        color: $black;
     }
 
     .logosTarjetas {
